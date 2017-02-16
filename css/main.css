@@ -46,15 +46,31 @@ height:80px;
 }
 
 form label {
-    padding:5% 0 1% 0;
+    padding:6% 0 1% 0;
     font-size:0.8em;
 }
 .border input {
     border-radius: 0;
     height: 4em;
-
 }
-/*  Footer  */
+.text-form{
+    font-size: 0.7em;
+    padding-top:1%;
+}
+
+.espaciado .day {
+    width: 9em;
+    margin-right:2em;
+}
+.espaciado .month{
+    width:17em;
+}
+.espaciado .year {
+    width: 9em;
+    margin-left:2em;
+}
+    /*  Footer  */
+
 footer{
     padding: 10px 0;
     border-top: 1px #dedede solid;
