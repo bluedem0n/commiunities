@@ -5,25 +5,85 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home</title>
-	<!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="favicon.ico">
+	<title>Commiunities</title>
+
+	<!-- Codespace Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Codespace Media Queries -->
+	<link rel="stylesheet" href="css/queries.css">
 	<!-- Codespace CSS -->
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
-	<!-- Codespace Media Queries -->
-	<link rel="stylesheet" href="css/queries.css">
-	<!-- Codespace Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	
 
 </head>
 
 <body>
-	<!--Borrar esto-->
-	<section style="height:600px;">
+    <section class="portada">
+       <header>
+            <nav class="navbar navbar-default navbar-fixed-top navegador">
+                <div class="container"> 
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> 
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                            <a class="navbar-brand " href="index.html"><img src="images/logotipo.png" alt=""></a>
+                    </div>
+                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">ayuda</a></li>
+                            <li><a href="#">acceder</a></li>
+                            <li><a href="#">registro</a></li>
+                            <li><a href="#">idiomas</a></li>
+                        </ul>
+                    </div>
+                            
+                </div>
+                    
+            </nav>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <p class="text-intro"><b>El tiempo es valioso,<br> te ayudamos a gestionarlo.</b></p>
+            </div>
+        </div>
+        <div class="container-fluid barra-blue">   
+        </div>
+        </section>
+        <section class="funcionamiento">
+            <h2>Cómo funciona</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="row">
+                            <div class="col-md-4"><!--aqui van los iconos-->
+                            <img src="images/logotipo.png" height="200" width="200">
+                            </div>
+                            <div class="col-md-4">
+                            <img src="images/logotipo.png" height="200" width="200">
+                            </div>
+                            <div class="col-md-4">
+                            <img src="images/logotipo.png" height="200" width="200">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content-port">
+            <div class="container">
+                <a href="#">Sobre nosotros</a>
+                <a href="#">Contacto</a>
+                <a href="#">Ayuda</a>
+            </div>
+        </section>
 
-	</section>
-	<!---->
 	<footer>
 		<img src="images/logocodespace.png" alt="Codespace">
 		<p class="rights">Copyright © Codespace - All rights reserved, Created by <a href="http://codespacelab.com" target="_blank">Codespace</a></p>

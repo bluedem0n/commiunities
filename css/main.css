@@ -1,4 +1,49 @@
+*{
+    font-family: 'Roboto', sans-serif; 
+}
+/*  Header */
 
+header{
+height:80px;
+}
+.navegador {
+    padding: 1%;
+    background-color:blue;
+}
+.text-intro{
+        color: black;
+        font-size: 3em;
+        padding: 20%;
+        text-align: center;
+}
+
+/* Hero*/
+
+.barra-blue {
+    height: 4em;
+    background-color: blue;
+}
+.funcionamiento {
+    text-align:center;
+}
+.content-port{
+    padding:10% 10% 10% 1%;
+}
+
+.content-port a{
+    text-decoration: none;
+    display:block;
+    padding:1%;
+}
+
+/* Registro */
+.texto-superior{
+    padding: 1.5% 1.5% 0 1.5%;
+}
+.texto-princ{
+    font-size: 1.5em;
+    padding:2%;
+}
 /*  Footer  */
 footer{
     padding: 10px 0;
@@ -9,7 +54,6 @@ footer{
 
 footer .rights{
     color: #3b3b3b;
-    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-top: 30px;
     line-height: 25px;
@@ -17,12 +61,11 @@ footer .rights{
 
 footer .rights a{
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     color: #2D2D5E;
 }
 
-a{
+footer a{
     color: #2D2D5E;
 }
 footer img{
