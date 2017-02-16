@@ -1,5 +1,8 @@
 *{
     font-family: 'Roboto', sans-serif; 
+    box-sizing: border-box;
+    margin:0;
+    color:#2A505D;
 }
 /*  Header */
 
@@ -8,7 +11,7 @@ height:80px;
 }
 .navegador {
     padding: 1%;
-    background-color:blue;
+    background-color:#2A505D;
 }
 .text-intro{
         color: black;
@@ -21,7 +24,7 @@ height:80px;
 
 .barra-blue {
     height: 4em;
-    background-color: blue;
+    background-color:#2A505D;
 }
 .funcionamiento {
     text-align:center;
@@ -38,14 +41,14 @@ height:80px;
 
 /* Registro */
 .texto-superior{
-    padding: 1.5% 1.5% 0 1.5%;
+    padding: 3em 2em 0 2em;
 }
 .texto-princ{
     font-size: 1.5em;
-    padding:2%;
+    padding:1.5em;
 }
 
-form label {
+.first-label label {
     padding:6% 0 1% 0;
     font-size:0.8em;
 }
@@ -69,8 +72,43 @@ form label {
     width: 9em;
     margin-left:2em;
 }
-    /*  Footer  */
+.formulario input{
+    width:30px;
+    background-color:white;
+}
+.formulario .label {
+    color:#2A505D;
+    position:relative;
+    bottom:2.5em;
+    padding-left:2.5em;
+}
 
+/*
+.formulario label:before {
+    content:"";
+    width:2.2em;
+    height:2.2em;
+    display:inline-block;
+    background:none;
+    border: 1.5px solid gray;
+    border-radius:60%;
+    position:absolute;
+    left:1.5em;
+
+}*/
+.checkbox{
+    padding:5%;
+}
+.button-register{
+    padding:1.7em;
+    width:20em;
+    border:none;
+    color:white;
+    background-color:#2A505D;
+    margin-bottom:10em;
+}
+
+ /*  Footer  */
 footer{
     padding: 10px 0;
     border-top: 1px #dedede solid;

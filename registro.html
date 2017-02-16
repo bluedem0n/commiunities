@@ -50,62 +50,89 @@
         <h2 class="text-center texto-princ"><b>Regístrate en Commiunities</b></h2>
         <form>
         <div class="container border">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <label>NOMBRE:</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1">
-                    
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    <label>APELLIDOS:</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1">
-                </div>
-            </div>
-            <div class="row">
-               
+            <div class="first-label">
+                <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <label>DIRECCIÓN DE CORREO ELECTRÓNICO:</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1">
-                        <p class="text-form">*Enviaremos la confirmación de tu registro a este correo</p>
+                        <label>NOMBRE:</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1">
+                        
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <label>TELÉFONO:</label>
+                        <label>APELLIDOS:</label>
                         <input type="text" class="form-control" id="exampleInputEmail1">
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <label>CONTRASEÑA:</label>
-                        <input type="password" class="form-control" id="exampleInputEmail1">
-                        <p class="text-form">*Ha de tener al menos 6 letras y 1 número, por favor</p>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <label>CONFIRMAR CONTRASEÑA:</label>
-                        <input type="password" class="form-control" id="exampleInputEmail1">
-                    </div>
+                   
+                        <div class="col-xs-12 col-md-6">
+                            <label>DIRECCIÓN DE CORREO ELECTRÓNICO:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1">
+                            <p class="text-form">*Enviaremos la confirmación de tu registro a este correo</p>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <label>TELÉFONO:</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1">
+                        </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <label>FECHA DE NACIMIENTO:</label>
-                        <div class="form-inline espaciado">
-                          <div class="form-group">
-                            
-                            <input type="text" class="form-control day" placeholder="Día">
-                          </div>
-                          <div class="form-group">
-                            
-                            <input type="text" class="form-control month" id="exampleInputPassword3" placeholder="Mes">
-                          </div>
-                          <div class="form-group">
-                            
-                            <input type="text" class="form-control year" id="exampleInputPassword3" placeholder="Año">
-                          </div>
+                        <div class="col-xs-12 col-md-6">
+                            <label>CONTRASEÑA:</label>
+                            <input type="password" class="form-control" id="exampleInputEmail1">
+                            <p class="text-form">*Ha de tener al menos 6 letras y 1 número, por favor</p>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6"></div>
+                        <div class="col-xs-12 col-md-6">
+                            <label for ="exampleInputEmail1">CONFIRMAR CONTRASEÑA:</label>
+                            <input type="password" class="form-control" id="exampleInputEmail1">
+                        </div>
                 </div>
-                
-        </div>
+                <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <label>FECHA DE NACIMIENTO:</label>
+                            <div class="form-inline espaciado">
+                              <div class="form-group">
+                                
+                                <input type="text" class="form-control day" placeholder="Día">
+                              </div>
+                              <div class="form-group">
+                                
+                                <input type="text" class="form-control month" id="exampleInputPassword3" placeholder="Mes">
+                              </div>
+                              <div class="form-group">
+                                
+                                <input type="text" class="form-control year" id="exampleInputPassword3" placeholder="Año">
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-xs-12 col-md-6">
+                            <label>SEXO:</label>
+                                <div class="formulario text-center">
+                                <div class="col-md-6">
+                                    <input type="radio" name="sexo" id="hombre">
+                                    <label class="label" for="hombre">Hombre</label>
+                                </div> 
+                                <div class="col-md-6">   
+                                    <input type="radio" name="sexo" id="mujer">
+                                    <label class="label" for="mujer">Mujer</label>
+                                </div>
+                                 </div> 
+                            </label>
+                        </div>
+                </div>
+            </div> <!--firstlabel--> 
+        </div><!--1container-->
+        <div class="container">
+                <div class="row checkbox text-center">
+                     <label>
+                     <input type="checkbox">Estoy de acuerdo con los Términos y la Política de Privacidad
+                    </label>
+                </div>
+                <div class="row text-center">
+                    <button class="button-register" type="submit">Únete a Commiunities</button>
+                </div>
+        </div>    
+
         </form>
     </section>
         
