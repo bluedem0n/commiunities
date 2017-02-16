@@ -107,8 +107,39 @@ height:80px;
     background-color:#2A505D;
     margin-bottom:10em;
 }
+/* Acceso*/
+.acceso{
+    text-align:center;
+    padding:4em 0;
+    font-size:1.5em;
+}
+.acceso input{
+    margin-top:3em;
+}
+.button-access{
+    width:100%;
+    background-color:#2A505D;
+    color:white;
+    border:none;
+    padding:0.8em;
+    margin-top:2em;
+    font-size:20px;
+}
+
+.form-access p{
+    margin-top:2em;
+}
+
+.hover-access:hover{
+    color:gray;
+}
+
+
+
 
  /*  Footer  */
+
+}
 footer{
     padding: 10px 0;
     border-top: 1px #dedede solid;
