@@ -208,11 +208,37 @@ height:80px;
     padding-bottom:5em;
 }
 /*  Usuario-dos  */
+
 .map-insert iframe{
     width:100%;
 }
 .header-map{
     height:500px;
+}
+
+.icon-home{
+    margin-left:5em;
+    position:relative;
+    top:-8em;
+}
+.community{
+    margin-left:14.5em;
+    position:relative;
+    top:2em;
+    font-size:1.2em;
+}
+.box{
+   border:1px solid #2A505D;
+   font-size:1.2em;
+   margin-top:12em;
+   margin-bottom:10em;
+}
+.box p{
+     margin-left:1em;
+    margin-top:0.5em;
+}
+.box span{
+    margin-left:5em;
 }
 
 /*  Footer  */
