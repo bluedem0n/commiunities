@@ -3,26 +3,40 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    color:#2A505D;
 }
-/*  Header */
+/*  Header color:#2A505D; para letras */
 
 header{
-height:80px;
+height:77px;
+}
+.logo{
+    width:15em;
 }
 .navegador {
     padding: 1%;
-    background-color:#2A505D;
+    background-color:#314B56;
+    border: 1px solid #314B56;
+
 }
-.text-intro{
-        color: black;
-        font-size: 3em;
-        padding: 20%;
-        text-align: center;
+.navegador ul li a{
+    color:white!important;
 }
 
+.navegador ul li a:hover{
+    color:#7EB742!important;
+}
+.gray{
+    padding:5px;
+    background-color:#7EB742;
+    border-radius:15%;
+}
 /* Hero*/
-
+.text-intro{
+    color: white;
+    font-size: 3em;
+    padding: 20%;
+    text-align: center;
+}
 .barra-blue {
     height: 4em;
     background-color:#2A505D;
@@ -30,16 +44,43 @@ height:80px;
 .funcionamiento {
     text-align:center;
 }
+.funcionamiento h2{
+    color:#2A505D;
+    font-size:1.5em;
+    padding:1em;
+}
 .content-port{
     padding:10% 10% 10% 1%;
+    height:30em;
+    background: url("../images/laptopsfondo.png");
+    background-size: cover;
+
 }
 
 .content-port a{
     text-decoration: none;
     display:block;
     padding:1%;
+    color:white;
 }
-
+.banner{
+    background: url("../images/commiunities.jpeg");
+    background-repeat: no-repeat;
+    height:37em;
+    background-position: 0px -235px;
+    background-size: 100%;
+}
+.circular{
+    border:1px solid black;
+    width:18px;
+    border-radius:50px;
+}
+.position .circular{
+    align-content: center;
+}
+.icons{
+    margin-bottom:8em;
+}
 /* Registro */
 .texto-superior{
     padding: 3em 2em 0 2em;
