@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    color:#2A505D;
 }
 /*  Header color:#2A505D; para letras */
 
@@ -276,11 +277,19 @@ height:77px;
     position:relative;
     top:-8em;
 }
+.gray-home{
+    border:4px solid white;
+}
 .community{
     margin-left:14.5em;
     position:relative;
     top:2em;
     font-size:1.2em;
+}
+.icon-hometwo{
+    position: absolute;
+    left: 85%;
+    top:37%;
 }
 .box{
    border:1px solid #2A505D;
