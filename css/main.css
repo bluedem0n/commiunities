@@ -3,12 +3,12 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    color:#2A505D;
 }
-/*  Header color:#2A505D; para letras */
-
 header{
 height:77px;
+}
+.color{
+     color:#2A505D;
 }
 .logo{
     width:15em;
@@ -17,19 +17,20 @@ height:77px;
     padding: 1%;
     background-color:#314B56;
     border: 1px solid #314B56;
-
 }
 .navegador ul li a{
     color:white!important;
 }
-
 .navegador ul li a:hover{
     color:#7EB742!important;
 }
-.gray{
+.green{
     padding:5px;
     background-color:#7EB742;
     border-radius:15%;
+}
+.margin-nav{
+    margin-right:1.5em;
 }
 /* Hero*/
 .text-intro{
@@ -62,9 +63,7 @@ height:77px;
     height:30em;
     background: url("../images/laptopsfondo.png");
     background-size: cover;
-
 }
-
 .content-port a{
     text-decoration: none;
     display:block;
